@@ -1,5 +1,5 @@
 <?php
-echo "index modified stage test";
+echo "index modified stage test as";
 phpinfo();
 
 ?>
