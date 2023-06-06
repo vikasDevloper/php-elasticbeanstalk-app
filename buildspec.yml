@@ -16,7 +16,6 @@ phases:
       - echo "Executing build steps"
 
 files:
-  - source: /
     destination: /var/www/html/test/
 
 permissions:
