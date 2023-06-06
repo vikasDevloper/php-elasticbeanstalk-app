@@ -1,0 +1,23 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      php: 7.4
+    commands:
+      - echo "Installing dependencies or performing any pre-build steps"
+
+  pre_build:
+    commands:
+      - echo "Executing pre-build steps if needed"
+
+  build:
+    commands:
+      - echo "Executing build steps"
+      - composer install --no-dev # Install Composer dependencies without dev dependencies
+      - phpunit # Run your unit tests or any other build commands
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: /var/www/html/php-elasticbeanstalk-app
