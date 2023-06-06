@@ -20,4 +20,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: /var/www/html/
+  base-directory: /var/www/html
