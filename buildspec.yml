@@ -15,9 +15,10 @@ phases:
     commands:
       - echo "Executing build steps"
 
-files:
-  - '**/*'
-    destination: /var/www/html/test/
+artifacts:
+  files:
+    - '**/*'
+  destination: /var/www/html/test/
 
 permissions:
   - object: /var/www/html/test/
