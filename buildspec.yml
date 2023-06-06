@@ -18,10 +18,10 @@ phases:
 artifacts:
   files:
     - '**/*'
-  destination: /var/www/html/test/
+  destination: /var/www/test/
 
 permissions:
-  - object: /var/www/html/test/
+  - object: /var/www/test/
     pattern: "**"
     owner: webapp
     group: webapp
