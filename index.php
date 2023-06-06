@@ -1,5 +1,5 @@
 <?php
-echo "index modified dev";
+echo "index modified dev 1";
 phpinfo();
 
 ?>
