@@ -15,4 +15,12 @@ phases:
     commands:
       - echo "Executing build steps"
 
+files:
+  - source: /
+    destination: /var/www/html/test/
 
+permissions:
+  - object: /var/www/html/test/
+    pattern: "**"
+    owner: www-data
+    group: www-data
