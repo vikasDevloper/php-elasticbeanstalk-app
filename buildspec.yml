@@ -20,4 +20,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: /var/www/html/php-elasticbeanstalk-app
+  base-directory: /var/www/html/test/
