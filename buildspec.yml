@@ -23,5 +23,5 @@ artifacts:
 permissions:
   - object: /var/www/html/test/
     pattern: "**"
-    owner: www-data
-    group: www-data
+    owner: webapp
+    group: webapp
